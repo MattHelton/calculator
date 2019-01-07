@@ -1,8 +1,17 @@
 h2{
     display: inline-block;
     color: red;
-    padding: 1em
+    padding: 1em;
+    background-color: white;
+    border-color: black;
+    margin: .1em
 }
 #calc-buttons {
-    align-content: center
+    align-content: center;
+    margin: 1em
+}
+#calculator{
+    background-color: black;
+    align-content: center;
+    border-radius: 5%
 }
