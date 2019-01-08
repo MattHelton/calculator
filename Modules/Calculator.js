@@ -1,10 +1,8 @@
-const calc = (callback, ...nums) => {
-   return callback(...nums)
-}
 export function add (...nums) {
     answer = 0
     for (let num of nums) answer += num
     return answer
+    console.log(answer)
 }
 export function subtract (...nums) {
     answer = 0
@@ -15,10 +13,6 @@ export function multiply (num1, num2) {
 }
 export function divide (num1, num2) {
     return num1 / num2
-}
-
-export function calc (callback, ...numbers) {
-    return callback(...numbers)
 }
 export function average (...nums) {
     let sum = 0
