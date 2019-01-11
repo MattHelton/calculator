@@ -4,7 +4,10 @@ h2{
     padding: 1em;
     background-color: white;
     border-color: black;
-    margin: .1em
+    margin: .1em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
 }
 #calc-buttons {
     align-content: center;
@@ -13,5 +16,16 @@ h2{
 #calculator{
     background-color: black;
     align-content: center;
-    border-radius: 5%
+    border-radius: 5%;
+    width: 21.5em;
+}
+#display {
+    height: 3em;
+    background-color: white;
+    border-color: black;
+    border-radius: 5%;
+    border: .5em;
+    margin: .5em;
+    border-style: solid
+    
 }
