@@ -8,6 +8,7 @@ h2{
     height: 1em;
     width: 1em;
     text-align: center;
+    border-radius: 5%
 }
 #calc-buttons {
     align-content: center;
@@ -18,14 +19,18 @@ h2{
     align-content: center;
     border-radius: 5%;
     width: 21.5em;
+    border-bottom-width: .5em;
+    border-color: black;
+    padding: 1em;
 }
 #display {
-    height: 3em;
+    height: 4em;
     background-color: white;
     border-color: black;
-    border-radius: %;
+    border-radius: 5%;
     border: .5em;
     margin: .5em;
-    border-style: solid
+    border-style: solid;
+    text-align: right;
     
 }
