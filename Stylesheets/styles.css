@@ -1,24 +1,27 @@
 button{
     display: inline-block;
     color: red;
-    padding: 1em;
+    /* padding: 1em; */
     background-color: white;
     border-color: black;
     margin: .1em;
-    height: 1em;
-    width: 1em;
+    height: 2em;
+    width: 2em;
     text-align: center;
-    border-radius: 50%
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.7em;
+    outline: none
 }
-#calc-buttons {
+/* #calc-buttons {
     align-content: center;
     margin: 1em
-}
+} */
 #calculator{
     background-color: black;
     align-content: center;
     border-radius: 5%;
-    width: 21.5em;
+    width: 15.5em;
     border-bottom-width: .5em;
     border-color: black;
     padding: 1em;
