@@ -26,3 +26,7 @@ export function average (...nums) {
 export function calc (callback, ...nums) {
     return callback(...nums)
 }
+
+export function number (number) {
+    return number
+}
