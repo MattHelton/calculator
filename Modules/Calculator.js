@@ -1,3 +1,7 @@
+export function numberHandler (func) {
+
+}
+
 export function add (...nums) {
     answer = 0
     for (let num of nums) answer += num
@@ -29,4 +33,5 @@ export function calc (callback, ...nums) {
 
 export function number (number) {
     return number
+    console.log(number)
 }

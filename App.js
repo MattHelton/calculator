@@ -1,39 +1,71 @@
-import { add, subtract, multiply, divide, calc, average } from './Modules/Calculator.js'
+import { add, subtract, multiply, divide, calc, average, number } from "./Modules/Calculator.js"
 
-let add = document.getElementById('add')
-let subtract = document.getElementById('subtract')
-let multiply = document.getElementById('multiply')
-let divide = document.getElementById('divide')
-let one = document.getElementById('one')
-let two = document.getElementById('two')
-let three = document.getElementById('three')
-let four = document.getElementById('four')
-let five = document.getElementById('five')
-let six = document.getElementById('six')
-let seven = document.getElementById('seven')
-let eight = document.getElementById('eight')
-let nine = document.getElementById('nine')
-let zero = document.getElementById('zero')
-let point = document.getElementById('point')
-let average = document.getElementById('average')
-let equal = document.getElementById('equal')
-let ac = document.getElementById('ac')
+let addBtn = document.getElementById("add")
+let subtractBtn = document.getElementById("subtract")
+let multiplyBtn = document.getElementById("multiply")
+let divideBtn = document.getElementById("divide")
+let one = document.getElementById("one")
+let two = document.getElementById("two")
+let three = document.getElementById("three")
+let four = document.getElementById("four")
+let five = document.getElementById("five")
+let six = document.getElementById("six")
+let seven = document.getElementById("seven")
+let eight = document.getElementById("eight")
+let nine = document.getElementById("nine")
+let zero = document.getElementById("zero")
+let point = document.getElementById("point")
+let averageBtn = document.getElementById("average")
+let equal = document.getElementById("equal")
+let ac = document.getElementById("ac")
+let digit = 0
 
-one.addEventListener('click', number(1))
-two.addEventListener('click', number(2))
-three.addEventListener('click', number(3))
-four.addEventListener('click', number(4))
-five.addEventListener('click', number(5))
-six.addEventListener('click', number(6))
-seven.addEventListener('click', number(7))
-eight.addEventListener('click', number(8))
-nine.addEventListener('click', number(9))
-zero.addEventListener('click', number(0))
-point.addEventListener('click', point())
-equal.addEventListener('click', equal())
-ac.addEventListener('click', ac())
-add.addEventListener('click', add())
-subtract.addEventListener('click', subtract())
-multiply.addEventListener('click', multiply())
-divide.addEventListener('click', divide())
-average.addEventListener('click', average())
+
+one.addEventListener("click", function(){
+    console.log(1)
+    return 1
+})
+two.addEventListener("click", function(){
+    console.log(2)
+    return 2
+})
+three.addEventListener("click", function(){
+    console.log(3)
+    return 3
+})
+four.addEventListener("click", function(){
+    console.log(4)
+    return 4
+})
+five.addEventListener("click", function(){
+    console.log(5)
+    return 5
+})
+six.addEventListener("click", function(){
+    console.log(6)
+    return 6
+})
+seven.addEventListener("click", function(){
+    console.log(7)
+    return 7
+})
+eight.addEventListener("click", function(){
+    console.log(8)
+    return 8
+})
+nine.addEventListener("click", function(){
+    console.log(9)
+    return 9
+})
+zero.addEventListener("click", function(){
+    console.log(0)
+    return 0
+})
+// point.addEventListener("click", point())
+// equal.addEventListener("click", equal())
+// ac.addEventListener("click", ac())
+// addBtn.addEventListener("click", add())
+// subtractBtn.addEventListener("click", subtract())
+// multiplyBtn.addEventListener("click", multiply())
+// divideBtn.addEventListener("click", divide())
+// averageBtn.addEventListener("click", average())
