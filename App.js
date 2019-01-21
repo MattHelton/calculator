@@ -23,97 +23,52 @@ let digits = []
 
 one.addEventListener("click", function(){
     console.log(1)
-    if (digits = []) {
-        let digits = 1
-        return digits
-    } else {
-        digits = `${digits}1`
-    }
+    digits = `${digits}1`
   console.log(digits)
 })
 two.addEventListener("click", function(){
     console.log(2)
-    if (digits = 0) {
-        let digits = 2
-        return digits
-    } else {
-        digits = `${digits}2`
-    }
+    digits = `${digits}2`
   console.log(digits)
 })
 three.addEventListener("click", function(){
     console.log(3)
-    if (digits = 0) {
-        let digits = 3
-        return digits
-    } else {
-        digits = `${digits}3`
-    }
+    digits = `${digits}3`
   console.log(digits)
 })
 four.addEventListener("click", function(){
     console.log(4)
-    if (digits = 0) {
-        let digits = 4
-        return digits
-    } else {
-        digits = `${digits}4`
-    }
+    digits = `${digits}4`
   console.log(digits)
 })
 five.addEventListener("click", function(){
     console.log(5)
-    if (digits = 0) {
-        let digits = 5
-        return digits
-    } else {
-        digits = `${digits}5`
-    }
+    digits = `${digits}5`
   console.log(digits)
 })
 six.addEventListener("click", function(){
     console.log(6)
-    if (digits = 0) {
-        let digits = 6
-        return digits
-    } else {
-        digits = `${digits}6`
-    }
+    digits = `${digits}6`
   console.log(digits)
 })
 seven.addEventListener("click", function(){
     console.log(7)
-    if (digits = 0) {
-        let digits = 7
-        return digits
-    } else {
-        digits = `${digits}7`
-    }
+    digits = `${digits}7`
   console.log(digits)
 })
 eight.addEventListener("click", function(){
     console.log(8)
-    if (digits = 0) {
-        let digits = 8
-        return digits
-    } else {
-        digits = `${digits}8`
-    }
+    digits = `${digits}8`
   console.log(digits)
 })
 nine.addEventListener("click", function(){
     console.log(9)
-    if (digits = 0) {
-        let digits = 9
-        return digits
-    } else {
-        digits = `${digits}9`
-    }
+    digits = `${digits}9`
   console.log(digits)
 })
 zero.addEventListener("click", function(){
     console.log(0)
-    digits = `${digits}1`
+    digits = `${digits}0`
     console.log(digits)
 })
 // point.addEventListener("click", point())
