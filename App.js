@@ -19,6 +19,8 @@ let averageBtn = document.getElementById("average")
 let equal = document.getElementById("equal")
 let ac = document.getElementById("ac")
 let digits = []
+let num1 = 0
+let num2 = 0
 
 
 one.addEventListener("click", function(){
@@ -72,9 +74,24 @@ zero.addEventListener("click", function(){
     console.log(digits)
 })
 // point.addEventListener("click", point())
-// equal.addEventListener("click", equal())
-// ac.addEventListener("click", ac())
-// addBtn.addEventListener("click", add())
+equal.addEventListener("click", function() {
+    num2 = digits
+    parseInt(num1)
+    parseInt(num2)
+    let answer = num1 + num2
+    console.log(answer)
+})
+ac.addEventListener("click", function() {
+    digits = 0
+    num1 = 0
+    num2 = 0
+})
+addBtn.addEventListener("click", function() {
+    num1 = digits
+    digits = [] 
+    console.log(num1)
+    console.log(digits)
+})
 // subtractBtn.addEventListener("click", subtract())
 // multiplyBtn.addEventListener("click", multiply())
 // divideBtn.addEventListener("click", divide())
