@@ -79,6 +79,7 @@ equal.addEventListener("click", function() {
     
     let answer = parseInt(num1, 10) + parseInt(num2, 10)
     console.log(answer)
+    digits = answer
 })
 ac.addEventListener("click", function() {
     digits = 0
