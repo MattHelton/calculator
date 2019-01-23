@@ -76,9 +76,8 @@ zero.addEventListener("click", function(){
 // point.addEventListener("click", point())
 equal.addEventListener("click", function() {
     num2 = digits
-    parseInt(num1)
-    parseInt(num2)
-    let answer = num1 + num2
+    
+    let answer = parseInt(num1, 10) + parseInt(num2, 10)
     console.log(answer)
 })
 ac.addEventListener("click", function() {
