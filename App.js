@@ -18,6 +18,7 @@ let point = document.getElementById("point")
 let averageBtn = document.getElementById("average")
 let equal = document.getElementById("equal")
 let ac = document.getElementById("ac")
+let negPos = document.getElementById('neg-pos')
 let digits = []
 let num1 = 0
 let num2 = 0
@@ -91,6 +92,14 @@ addBtn.addEventListener("click", function() {
     digits = [] 
     console.log(num1)
     console.log(digits)
+})
+negPos,addEventListener("click", function() {
+  if (digits > 0 ) {
+    return Math.abs(digits) * -1
+  } else {
+    return Math.abs(digits)
+  }
+  console.log(digits)
 })
 // subtractBtn.addEventListener("click", subtract())
 // multiplyBtn.addEventListener("click", multiply())
